@@ -1,4 +1,4 @@
-<?php  include '/extend/header.php'; ?>
+<?php  include '../extend/header.php'; ?>
 <div class="row">
     <div class="col s12">
         <div class="card">
@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<?php  include '/extend/scripts.php'; ?>
+<?php  include '../extend/scripts.php'; ?>
 
 </body>
 </html>
