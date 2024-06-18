@@ -8,11 +8,8 @@ $nivel = $con->real_escape_string(htmlentities($_POST['nivel']));
 $nombre = $con->real_escape_string(htmlentities($_POST['nombre']));
 $correo = $con->real_escape_string(htmlentities($_POST['correo']));
 }else{
-    echo "<script>
-    alert ('Utiliza el formulario');
-    location.href='index.php';
-    </script>";
+header('location:../extend/alertas.php?msj=Utilisssa1 el formulario&c=us&p=in&t=error');
 }
 
 
-?>
+?> 
